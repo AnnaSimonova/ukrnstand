@@ -1,0 +1,40 @@
+.card {
+  margin: auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  text-align: center;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.icon_spin {
+  -webkit-animation: icon_spin 2s infinite linear;
+  animation: icon_spin 2s infinite linear;
+}
+
+@-webkit-keyframes icon_spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes icon_spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
